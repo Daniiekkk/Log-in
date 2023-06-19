@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href=''>
+    <script src='main.js'></script>
+</head>
+<style>
+fieldset{
+  width:310px;
+  height:370px;
+  box-shadow: 3px 4px 5px black;
+  position: absolute;
+  align-items: center;
+  left: 500px;
+  bottom: 140px;
+  background: linear-gradient(to left, rgb(58, 58, 58),rgb(94, 94, 94),rgb(156, 156, 156));
+  border: 1px solid black;
+  border-radius: 9px;
+}
+.form{
+    text-align: center;
+    font-size: 80px;
+    left: 480px;
+    margin-top: 0px;
+    border: 1px solid black; 
+    position: absolute;
+    border-width: 10px;
+    border-radius: 10px;
+}
+body{
+    background: linear-gradient(to left, rgb(41, 41, 41),rgb(116, 116, 116),rgb(202, 202, 202));
+}
+</style>
+<body>
+    <h1 class="form">formulario</h1>
+    <fieldset>
+    <form method='post' action=''>
+        <p>
+            <label for='email'>E-mail: </label>
+            <input type='email' id='email' name='email'>
+            <span>Por exemplo: seunome@dominio.com</span>
+        </p>
+        <p>
+            <label for='subject'>Assunto</label>
+            <input type='text' id='subject'>
+        </p>
+        <p>
+            <label for='content'>Mensagem</label>
+            <textarea id='content' cols="25" rows="15">  </textarea>
+        </p>
+        <button>Enviar</button>
+    </form>
+</fieldset>
+</body>
+</html>
