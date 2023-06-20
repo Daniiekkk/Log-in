@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient(90deg , lightblue, purple);
+}
+h1{
+    text-align: center;
+    margin-top: 20%;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 6px 9px black;
+}
